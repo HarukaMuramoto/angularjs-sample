@@ -1,0 +1,50 @@
+/**/
+
+.add-form {
+  width: 200px;
+  height: 30px;
+}
+@-webkit-keyframes bounce {
+  0%   {
+    margin-bottom:-1em;
+    transform:scaleY(.8);
+  }
+  15% {
+    transform:scaleY(1);
+  }
+  100% {
+    margin-bottom:15em;
+    transform:scaleY(1);
+  }
+}
+
+@-webkit-keyframes bounce-shadow {
+  0%   {
+    transform:scaleY(.1) scaleX(.8);
+  }
+  100% {
+    transform:scaleY(.05) scaleX(.25);
+  }
+}
+
+.ball {
+  position:fixed;
+  bottom:13%;
+  left:33%;
+  margin-left:-5em;
+  z-index:1;
+  -webkit-animation: bounce 400ms alternate infinite ease;
+}
+.shadow {
+  border-radius:100em;
+  width:10em;
+  height:10em;
+  position:fixed;
+  bottom:20%;
+  left:50%;
+  margin-left:-5em;
+  z-index:0;
+  background:rgba(0,0,0,.1);
+  margin-bottom:-5em;
+  -webkit-animation:bounce-shadow 400ms alternate infinite ease;
+}

@@ -1,0 +1,19 @@
+ball-bound
+http://es-labo.biz/ball/
+
+//important!!
+しんぷる
+つかいやすい
+たのしい
+
+AngularJS をつかってみた
+http://dev.classmethod.jp/tool/angularjs_getting_started/
+
+AngularJS TO-DO
+http://qiita.com/village/items/91668ae8e508ec612b6c
+
+
+//やること
+・タブをつける
+・絵を描く
+・あいこん

@@ -17,3 +17,6 @@ http://qiita.com/village/items/91668ae8e508ec612b6c
 ・タブをつける
 ・絵を描く
 ・あいこん
+
+検索ワード
+angularjs input 取得
